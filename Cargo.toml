@@ -5,8 +5,8 @@ edition = "2021"
 authors = ["scPointer <jax01@foxmail.com>"]
 
 [dependencies]
-# kernel-context = { path = "../kernel-context" }
-signal-defs = { path = "../signal-defs" }
+kernel-context = { git = "https://github.com/shiwenlong12/kernel-context" }
+signal-defs = { git = "https://github.com/shiwenlong12/signal-defs" }
 
 [features]
 kernel = []
