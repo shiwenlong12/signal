@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["scPointer <jax01@foxmail.com>"]
 
 [dependencies]
-kernel-context = { git = "https://github.com/shiwenlong12/kernel-context" }
+# kernel-context = { git = "https://github.com/shiwenlong12/kernel-context" }
 signal-defs = { git = "https://github.com/shiwenlong12/signal-defs" }
 
 [features]
