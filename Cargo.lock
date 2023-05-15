@@ -3,6 +3,11 @@
 version = 3
 
 [[package]]
+name = "kernel-context"
+version = "0.1.0"
+source = "git+https://github.com/shiwenlong12/kernel-context#6fcdebcac7c65b1bc53a0b419f6b3055f465043e"
+
+[[package]]
 name = "numeric-enum-macro"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -12,6 +17,7 @@ checksum = "300e4bdb6b46b592948e700ea1ef24a4296491f6a0ee722b258040abd15a3714"
 name = "signal"
 version = "0.1.0"
 dependencies = [
+ "kernel-context",
  "signal-defs",
 ]
 
